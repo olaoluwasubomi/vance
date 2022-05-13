@@ -1,0 +1,445 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    width:100%;
+}
+/* NAVIGATION */
+.navigation{
+    /* background:red; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:90%;
+    margin:40px auto;
+    justify-content:space-between;
+}
+nav li a img , .logo a img{
+    width:15px;
+}
+.navigation h2{
+    text-transform:capitalize;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.6em;
+    font-weight:lighter;
+    cursor:pointer;
+}
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40%;
+    justify-content:space-between;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform:capitalize;
+    font-size:1em;
+    font-weight:lighter;
+    color:#9c9c9c;
+    word-spacing:10px;
+}
+/* END OF NAVIGATION */
+
+
+/* HEADING SECTION */
+.heading{
+    background-image:url(images/food\ background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.5);    
+} 
+.heading div {
+    padding-top:150px;
+    padding-bottom:150px;
+    padding-left:130px;
+}
+.heading li{
+    list-style:none;
+}
+.heading li a{
+    display:block;
+    padding:20px;
+    text-decoration:none;
+    color:#fff;
+    text-transform: capitalize;
+    font-family:serif;
+    font-size:2.4em;
+}
+/* END OF NAVIGATION */
+
+/*LOCATION*/
+.location{
+    background:rgb(54, 54, 98);
+    text-align:center; 
+    padding-bottom:80px; 
+}
+.main-text , .sub-text{
+    padding-top:80px;
+    color:#fff;
+    font-size:1.65em;
+    width:58%;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-text{
+    padding-top:30px;
+}
+.location a{
+    display:block;
+    text-decoration:none;
+    /* padding-top:30px; */
+    text-transform:capitalize;
+    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+    border:1px solid #fff;
+    padding:15px;
+    width:15%;
+    text-align:center;
+    margin:40px auto 0;
+    /* padding-bottom:50px; */
+    transition:all 1s;
+}
+.location a:hover{
+    background:#fff;
+    color:rgb(136, 136, 136);
+}
+/* END OF LOCATION */
+
+/*  PRODUCT PAGE */
+.product{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:90%;
+    margin:80px auto;
+    justify-content:space-between;
+}
+.product-text{
+    width:50%;
+    text-align:center;
+    margin:0 auto;
+}  
+.product-text p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.7em;
+    line-height:1.5em;
+    word-spacing:4px;
+    width:90%;
+}
+.product-text span{
+    display:block;
+    margin:25px auto;
+    font-size:1.2em;
+    color:#9c9c9c;
+    width:88%;
+    word-spacing:15px;
+
+}
+.product-text a{
+    display:block;
+    text-decoration:none;
+    border-bottom:1px solid black;
+    color:#9c9c9c;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    width:33%;
+    margin:auto;    
+}
+.product-image img{
+    width:100%;
+}
+.product-image{
+    width:50%;
+}
+/* END OF PRODUCT PAGE */
+.background{
+    background-image:url(images/camp_285-copy.jpg);
+    width:100%;
+    height:650px;
+    background-blend-mode:overlay;
+    background-color:rgba(0,0,0,.1);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+.product-2{
+    flex-direction:row-reverse;
+}
+.product-text-2{
+    /* background-color:red; */
+    margin-left:80px;
+    text-align:center;
+    width:60%;
+}
+.main-text-2{
+    /* margin-top:50px; */
+    font-size:2.5em;
+    width:35%;
+    text-align:center;
+    line-height:1.3em;
+}
+.days{
+    margin:70px auto 0;
+    /* margin:30px auto; */
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:40%;
+    justify-content:space-between;
+    padding-bottom:70px;
+    /* background-color:red; */
+}
+.days p , .days span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.6em;
+    text-transform:capitalize;
+    text-align:center;
+    color:#fff; 
+}
+.days span{
+    line-height:1.5em;
+    
+}
+.location-2{
+    padding-bottom:0;
+}
+
+.subscribe{
+    background-image:url(images/camp_397-copy.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    text-align:center;
+}
+.subscribe p{
+    padding-top:100px;
+    text-transform:capitalize;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.9em;
+}
+.subscribe span{
+    display:block;
+    margin:30px auto;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1em;
+    color:#fff;
+}
+form{
+    padding-bottom:100px;
+    padding-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:30%;
+    justify-content:space-between;
+    margin:0 auto;
+}
+input{
+    padding:25px;
+    text-transform: capitalize;
+    color:#9c9c9c;
+    border:none;
+    width:70%;
+    font-size:1em;
+}
+form a{
+    display:block;
+    text-transform:capitalize;
+    color:#fff;
+    text-decoration:none;
+    padding:20px;
+    border:2px solid #fff;
+    width:30%; 
+    margin-left:20px; 
+}
+
+.view{
+    display:flex;
+    align-items:center;
+    /* justify-content:center; */
+    width:90%;
+    background:#fff;
+    justify-content:space-between;
+    margin:0 auto;
+}
+.view div{
+    margin-top:40px;
+    margin-bottom:40px;
+    margin-left:15px;
+    margin-right:0;
+}
+.one-view p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1.8em;
+    font-weight:lighter;
+}
+.view-text{
+    color:#9c9c9c;
+    display:block;
+    padding-bottom:50px;
+}
+.text-link{
+    display:block;
+    margin-top:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1em;
+}
+.text-link a{
+    color:#9c9c9c;
+}
+.logo{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:4%;
+    justify-content:space-between;
+}
+
+
+@media screen and (max-width:500px){
+    .navigation{
+        flex-direction:column;
+        width:100%;
+        margin:20px auto;
+    }
+    nav{
+        flex-direction: column;
+        width:100%;
+        margin:5px auto;
+    }
+    nav li a img , .logo a img{ 
+        display:none;
+    }
+    nav li a{
+        display:block;
+        margin:10px auto;
+    }
+    .heading{
+        width:100%;
+    }
+    .heading div{
+        width:100%; 
+        padding-top:100px;
+        padding-bottom:100px;
+        padding-left:70px;
+    }
+    .heading li a{
+        font-size:2em;
+        padding:10px;
+    }
+    .location{
+        padding-bottom:50px;
+    }
+    .main-text , .sub-text{
+        padding-top:40px;
+        font-size:1em;
+        width:100%;
+        line-height:1.5em;
+    }
+    .sub-text{
+        padding-top:20px;
+    }
+    .location a{
+        width:50%;
+    }
+    .product{
+        flex-direction:column;
+        width:100%;
+        margin:10px auto;
+    }
+    .product-text{
+        width:90%;
+        font-size:1em;
+        text-align:center;
+    }
+    .product-text p{
+        font-size:1.2em;
+    }
+    .product-text a{
+        border:none;
+        width:60%;
+    }
+    .product-image img{
+        width:100%;
+        margin:20px auto;
+    }
+    .product-image{
+        width:100%;
+    }
+    .background{
+        width:100%;
+        margin:auto;
+    }
+    .product-text-2{
+        margin:0 auto;
+        width:90%;
+    }
+    .days{
+        flex-direction: column;
+        padding-bottom:20px;
+        width:60%;
+        margin:20px auto 0;
+    }
+    .days p{
+        margin-top:20px;
+    }
+    .days p , .days span{
+        font-size:1.3em;
+    }
+    .subscribe p{
+        padding-top:40px;
+        font-size:1.4em;
+    }
+    .subscribe span{
+        margin:10px auto;
+        font-size:0.8em;
+    }
+    form{
+        flex-direction:column;
+        width:100%;
+        padding-bottom:30px;
+    }
+    input{
+        padding:15px;
+        width:80%;
+        font-size:0.8em;
+    }
+    form a{
+        margin-top:10px;
+        width:80%;
+        padding:10px;
+        margin-left:0;
+    }
+    .view{
+        flex-direction:column;
+        width:100%;
+    }
+    .view div{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-left:0;
+        margin-right:0;
+    }
+    .one-view p{
+        font-size:1em;
+    }
+    .view-text{
+        padding-bottom:20px;
+    }
+    .text-link{
+        margin-top:0;
+    }
+
+}
